@@ -7,11 +7,11 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Namaste React Handbook",
-  tagline: "Ultimate React Learning",
+  tagline: "Your Ultimate React Learning.",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://your-docusaurus-test-site.com",
+  url: "https://namastereacthandbook.netlify.app/",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -83,9 +83,9 @@ const config = {
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/facebook/docusaurus",
+            href: "https://github.com/Shyam3050/Namaste_React_Handbook",
             position: "right",
-            className: 'navbar-icon',
+            className: "navbar-icon",
             html: `<svg
                 stroke="currentColor"
                 fill="currentColor"
@@ -98,7 +98,7 @@ const config = {
               </svg>`,
           },
           {
-            href: "https://www.linkedin.com/in/i-mohit-singh-chauhan/",
+            href: "https://linkedin.com/in/shyam-sundar-565754225/",
             position: "right",
             className: "navbar-icon",
             "aria-label": "LinkedIn",
@@ -110,31 +110,27 @@ const config = {
         style: "dark",
         links: [
           {
-            title: "Docs",
+            title: "About Creator",
             items: [
               {
-                label: "Tutorial",
-                to: "/docs/intro",
-              },
-            ],
-          },
-          {
-            title: "Community",
-            items: [
-              {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
+                label: "Portfolio Website",
+                href: "https://iamshyam.netlify.app",
               },
               {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
+                label: "Linkedin",
+                href: "https://linkedin.com/in/shyam-sundar-565754225/",
+              },
+              {
+                label: "Github",
+                href: "https://github.com/Shyam3050",
               },
               {
                 label: "Twitter",
-                href: "https://twitter.com/docusaurus",
+                href: "https://twitter.com/ShyamSu67810318",
               },
             ],
           },
+
           {
             title: "More",
             items: [
@@ -143,13 +139,13 @@ const config = {
                 to: "/blog",
               },
               {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                label: "Project GitHub",
+                href: "https://github.com/Shyam3050/Namaste_React_Handbook",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus( from Facebook ).`,
+        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus( from Facebook ). Made by Shyam`,
       },
       prism: {
         theme: lightCodeTheme,
