@@ -81,7 +81,7 @@ const config = {
             position: "left",
             label: "Start Reading",
           },
-          { to: "/blog", label: "Blog", position: "left" },
+          // { to: "/blog", label: "Blog", position: "left" },
           {
             href: "https://github.com/Shyam3050/Namaste_React_Handbook",
             position: "right",
@@ -134,10 +134,10 @@ const config = {
           {
             title: "More",
             items: [
-              {
-                label: "Blog",
-                to: "/blog",
-              },
+              // {
+              //   label: "Blog",
+              //   to: "/blog",
+              // },
               {
                 label: "Project GitHub",
                 href: "https://github.com/Shyam3050/Namaste_React_Handbook",
